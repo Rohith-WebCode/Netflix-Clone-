@@ -7,7 +7,7 @@ import Youtube from 'react-youtube'
 
 function Rowpost(props) {
   // const {setErrorMessage} =props
-  const [movies, setMovies] = useState([])
+   const [movies, setMovies] = useState([])
    const [urlid, setUrlid] = useState('')
   useEffect(() => {
     axios.get(props.url).then(response=>{
@@ -39,7 +39,7 @@ function Rowpost(props) {
 
          
     }).catch(err=>{
-      props.error(null);
+      props.error(true);
     })
     
 
