@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {original,Action,Comedy,Trending,topRated,horror,romance,documentaries} from './Urls'
 import NavBar from "./Components/NavBar/NavBar";
-import './app.css'
+import './App.css'
 import Banner from "./Components/Banner/Banner";
 import Rowpost from "./Components/RowPost/Rowpost";
 import Footer from "./Components/footer/footer";
