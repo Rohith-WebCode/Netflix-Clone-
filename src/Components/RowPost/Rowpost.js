@@ -14,7 +14,7 @@ function Rowpost(props) {
       // console.log(response.data);
       setMovies(response.data.results)
     }).catch(err=>{
-      props.error(false);
+      props.error(true);
     })
 
    
@@ -39,7 +39,7 @@ function Rowpost(props) {
 
          
     }).catch(err=>{
-      props.error(false);
+      props.error(true);
     })
     
 
