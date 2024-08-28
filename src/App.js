@@ -11,7 +11,7 @@ import Errorgif from './img/image_processing.gif'
 
 
 function App() {
-  const [errorMessage, setErrorMessage] = useState(true);
+  const [errorMessage, setErrorMessage] = useState(false);
   console.log(errorMessage);
   
   return (
